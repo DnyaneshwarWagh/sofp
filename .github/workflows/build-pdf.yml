@@ -26,7 +26,7 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Build PDF using make_all.sh
+      - name: Build PDF using make_sofp_pdf.sh
         id: full-pdf
         uses: docker://winitzki/sofp-docker-build:latest
         with:
